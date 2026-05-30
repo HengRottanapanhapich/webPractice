@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="Hanabi" minilength="6" maxlength="15" ><br>
+
+            <label for="password">password:</label>
+            <input type="password" id="password" minilength="6" maxlength="15" ><br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="Weweteabread@gmail.com" ><br>
+
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" placeholder="077 828 256" pattern="[0]{1}[0-9]{2} [0-9]{3} [0-9]{3}"><br>
+
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday"><br>
+
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." value="Ms" name="title">
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+            <label for="payment">payment</label>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select><br>
+
+            <label for="subcribe">subcribe</label>
+            <input type="checkbox" id="subcribe"><br>
+
+            <label for="comment">comment</label>
+            <textarea id="comment" rows="5" cols="30"></textarea><br>
+
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+            <input type="reset"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
+
+<!--For the action="index.php" for the action attribute it sends data to the location that you set(index.php) it can also be other files-->
+<!--The method attribute specifies if it is a GET request for a POST request, POST is used for confidential information, and GET is used for insensitive data -->
+<!--The enctype attribute is used to specify how the form data should be encoded when submitting it to the server-->
+<!--multipart/form-data this means that when you send a large amount of data it will break it into small parts and then it will reassemble it -->
+<!--You will need an input element to create a textbox-->
+<!--You can specifiy the type of the textbox by using the type attribute-->
+<!--Using a label element help the user know that the textbox does-->
+<!--For any user that might be visually impaired you can add a for attribute-->
+<!--Another benefit of the for attribute is that when you click on the label it will take you to the textbox but you will also need an id attribute that has the same variable as the for attribute-->
+<!--placeholder attribute is used to show a sample in the textbox so that the user know what to write in-->
+<!--minilength attribute is the mini of what the user need to input-->
+<!--maxlength attribute is the max of what the user can input-->
+<!--pattern attribute is used to confirm the input, the input must match the pattern attribute for the form to be considered valid and submitted successfully-->
+<!--The min and max attributes are used to define the minimum and maximum acceptable values for certain input elements-->
+<!--The value attribute is used to specifies the value associated with an element. Its specific behavior and usage depend on the element it is applied to-->
+<!--The name attribute is used to assign a name to an element, primarily for identification and data submission purposes-->
+<!--The <select> element is used to create a dropdown list, allowing users to choose one or more options from a predefined set-->
+<!--the rows and cols attributes are primarily used with the <textarea> element to define its visible dimensions-->
+
