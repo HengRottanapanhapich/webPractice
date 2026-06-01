@@ -1,0 +1,53 @@
+#chiikawa1:link{
+    color: rgb(139, 176, 249);
+}
+
+#chiikawa1:hover{
+    color: rgb(175, 201, 252);
+}
+
+#chiikawa2:link{
+    color: rgb(228, 172, 254);
+}
+
+#chiikawa2:hover{
+    color: rgb(230, 190, 248);
+}
+
+#chiikawa3:link{
+    color: rgb(247, 233, 126);
+}
+
+#chiikawa3:hover{
+    color: rgb(247, 241, 198);
+}
+
+#chiikawa4:active{
+    color: orange;
+}
+
+a:visited {
+    color: orange;
+}
+
+li:hover{
+    background-color: rgb(255, 230, 183);
+}
+
+li:not(:hover){
+    background-color: orange;
+}
+
+li:nth-child(2n+1){
+    background-color: yellow;
+}
+
+#hi p{
+    background-color: rgb(255, 195, 84);
+    padding: 10px;
+    display: none;
+}
+
+#hi:hover p{
+    display: block;
+}

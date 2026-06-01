@@ -1,0 +1,263 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+
+.containera {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerb {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.containerc {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.containerd {
+    display: flex;
+    justify-content: flex-start; /*set the alignment on the main axis (Like the x axis)*/
+}
+
+.containere {
+    display: flex;
+    justify-content: center;
+}
+
+.containerf {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerh {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containeri {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerj {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.containerk {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.containerl {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.containerm {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: baseline; /*align the text of it*/
+}
+
+.containern {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.containero {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerp {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.containerq {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.containerr {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.containers {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.containert {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.containeru {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.containerv {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.containerw {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.containerx {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.containery {
+    border: 5px solid rgb(78, 78, 78);
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+}
+
+#box1 {
+    background-color: rgb(246, 115, 115);
+}
+
+#box2 {
+    background-color: rgb(246, 154, 115);
+}
+
+#box3 {
+    background-color: rgb(246, 218, 115);
+}
+
+#box4 {
+    background-color: rgb(174, 246, 115);
+}
+
+#box5 {
+    background-color: rgb(115, 222, 246);
+}
+
+#box6 {
+    font-size: 2em;
+    background-color: rgb(246, 115, 115);
+}
+
+#box7 {
+    background-color: rgb(246, 154, 115);
+    align-self: start;
+}
+
+#box8 {
+    background-color: rgb(246, 218, 115);
+    align-self: center;
+}
+
+#box9 {
+    background-color: rgb(174, 246, 115);
+    align-self: end;
+}
+
+.border {
+    border: 5px solid rgb(78, 78, 78);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+mark {
+    background-color: rgb(248, 147, 70);
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+b {
+    font-weight: 1000;
+}
+
+/*You can you order for an element to change the order of the element. ex: order: 1 if order: -1 it will be at the beginning*/

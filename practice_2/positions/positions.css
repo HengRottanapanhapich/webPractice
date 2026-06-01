@@ -1,0 +1,45 @@
+.container {
+    background-color:antiquewhite;
+    border: 2px solid orange;
+    text-align: center;
+    color: rgb(165, 73, 42);
+}
+#box1 {
+    width: 100px;
+    height: 100px;
+    font-size: 4em;
+    position: relative;
+    top: 50px; /*This is pushing from the top to bottom by 50px*/
+    left: 600px; /*This is pushling from left to right by 100px*/
+    margin-bottom: 100px;
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    font-size: 9em;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    font-size: 0.5em;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#box4 {
+    font-size: 2em;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+}
+
+body {
+    background-color:rgb(229, 197, 154);
+}
+

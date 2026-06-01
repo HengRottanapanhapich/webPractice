@@ -1,0 +1,24 @@
+#container1 {
+    border: 2px solid orange;
+}
+
+#container2 {
+    margin-top: 10px;
+    border: 2px solid orange;
+}
+/* Paragraph 1 2 3 are descendant of container 1 */
+#container1 p {
+    background-color:antiquewhite;
+}
+/* paragraph 1 and 2 are the children of container 2, this doesn't include paragraph 3 since it is a descendant */
+#container2 > p {
+    background-color: pink;
+}
+/* paragraph 4 and 5 are general sibling of container 1 and 2 */
+ #container1 ~ p {
+    background-color: rgb(192, 206, 255);
+}
+/* The next direct sibling but not all the sibling, doesn't work if you do it from the container 1 */
+#container2 + p {
+    background-color: rgb(192, 255, 199);
+}

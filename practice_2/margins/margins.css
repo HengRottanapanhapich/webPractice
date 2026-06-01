@@ -1,0 +1,25 @@
+body {
+    margin: 10px; /*this give the body margin and if it's 0px the letter will be next to the web browser*/
+}
+
+.box { 
+    border: 5px solid;
+    font-size: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+#box1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#box2 {
+    background-color: pink;
+    box-shadow: 10px 10px 5px grey;
+}
+
+/* if you want to apply margins evenly all around the box you can you margin: Xpx; */
+/* if you want to set a box to the end of some place you can use margin-(the place): auto, if you want it center use margin: auto*/

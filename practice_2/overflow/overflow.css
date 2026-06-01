@@ -1,0 +1,13 @@
+div {
+    border: 5px solid rgb(64, 64, 144);
+    border-radius: 20px;
+    height: 100px;
+    overflow: auto;
+    margin: 10px;
+
+}
+/* visible (default): Content that overflows the element's box remains visible and extends beyond the boundaries, potentially overlapping other elements. */
+/* hidden: Content that overflows the element's box is clipped and hidden. No scrollbars are provided. */
+/* scroll: Scrollbars are always added to the element, even if the content does not overflow. This allows users to scroll through the content if it exceeds the element's dimensions. */
+/* auto: Scrollbars are added only when the content overflows the element's box. If the content fits within the element, no scrollbars are displayed. */
+/* clip: Similar to hidden, content outside the element's padding box is clipped. However, clip also prevents any scrolling, even programmatically. Can be used with overflow-clip-margin */

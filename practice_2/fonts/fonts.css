@@ -1,0 +1,18 @@
+@font-face{
+    src: url(../../fonts/PlayfairDisplay-VariableFont_wght.ttf); /*You download the font and put it yourself*/
+    font-family: playfair; /*You can use any name you want*/
+}
+h1{
+    font-family: Pacifico, vaerdana, arial; /*We have the first font and then the second font which is used as a fallback font which is web safe font*/
+}
+#p1{
+    font-family: "lucida consale", "courier new"; /*If the font have space it will need to put it in a set of quotes*/
+    font-size: 15px; /*Or you can use em like 0.5em, 1em*/
+    font-weight: 100; /*font-weight is to control the boldness or lightness of a font: normal(equivalent to 400) (equivalent to 700) there are more then 400-700*/
+    font-style: italic;
+}
+#p2{
+    font-family: playfair, arial;
+    font-size: 15px;
+    font-weight: 100;
+}

@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    background-color: gray;
+    height: 100vh; /*vh is viewpoint height and for width is vw for viewpoint width*/
+}
+
+.box{
+    background-color:aliceblue;
+    border: 2px solid;
+    padding: 25px;
+    height: auto; /*the auto automatically calculate the height for the bordeer*/
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-height: 50%; /*we also have min-height*/
+}

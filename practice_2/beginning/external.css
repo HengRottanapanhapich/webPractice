@@ -1,0 +1,18 @@
+body {
+    background-color:antiquewhite;
+}
+h1 {
+    color: #f19525;
+}
+hr {
+    border: 1px solid rgb(241, 149, 37);
+}
+#p1 {
+    color: rgb(171, 86, 12);
+}
+#p2 {
+    color: rgb(164, 73, 13);
+}
+#p3 {
+    color: rgb(147, 93, 7);
+}

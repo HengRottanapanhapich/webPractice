@@ -1,0 +1,38 @@
+#header1 {
+    border-style: dotted;
+}
+#header2 {
+    border-style: dashed;
+}
+#header3 {
+    border: solid 3px rgb(255, 166, 0); /*You can put all of them together like this or seperate them(type weight color)*/
+    border-radius: 20px;
+}
+#header4 {
+    border-style: double;
+}
+#header5 {
+    border-style: groove;
+
+}
+#header6 {
+    border-style: ridge;
+}
+#header7 {
+    border-style: inset;
+}
+#header8 {
+    border-style: outset;
+}
+#header9 {
+    border-style: none; /*This is the default value*/
+}
+#header10 {
+    border-style: hidden;/* Similar to none, but can be used in table borders to resolve conflicts.*/
+}
+p {
+    border-bottom:solid 2px rgb(255, 166, 0);
+    border-top: dashed 2px blue;
+    border-left: dotted 2px pink;
+    border-right: ridge 2px yellow;
+}

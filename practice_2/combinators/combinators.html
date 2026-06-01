@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Combinators</title>
+        <link rel="stylesheet" href="combinators.css">
+    </head>
+    <body>
+        <div id="container1">
+            <p>This is #1</p>
+            <p>This is #2</p>
+            <div>
+                <p>This is #3</p>
+            </div>
+        </div>
+
+        <div id="container2">
+            <p>This is #1</p>
+            <p>This is #2</p>
+            <div>
+                <p>This is #3</p>
+            </div>
+        </div>
+
+        <p>This is #4</p>
+        <p>This is #5</p>
+        <p>This is #6</p>
+    </body>
+</html>
+<!-- combinators = explains the relationship between listed selectors
+ (space) = descendant
+ > = child
+ ~ = general sibling (Inside the body we have div and the other 2 para, they are the children of the body which mean they are sibling to each other)
+ + adjacent sibling (The next direct sibling but not all the sibling)
+
+ Ex: selector combinator selector / div > p
+ -->

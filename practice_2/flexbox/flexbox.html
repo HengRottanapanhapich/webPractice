@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flexbox</title>
+        <link rel="stylesheet" href="flexbox.css">
+    </head>
+    <body>
+
+        <h2><mark><u><b>Flex-direction:</b></u></mark> property in CSS controls the direction of the main axis within a flex container.</h2>
+        <h3>The flex container is refering to the div container that surround the box, not the border container.</h3>
+
+        <div class="border">
+            <h3><u><b>Row (default):</b></u> Arrange flex items horizontally from left to right.</h3>
+            <div class="container">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+            <h3><u><b>Column:</b></u> Arranges flex items vertically from top to bottom.</h3>
+            <div class="containera">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+            <h3><u><b>Row-reverse:</b></u> Arranges flex items horizontally but in reverse order, from right to left.</h3>
+            <div class="containerb">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+            <h3><u><b>Column-reverse:</b></u> Arranges flex items vertically but in reverse order, from bottom to top.</h3>
+            <div class="containerc">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+        </div>
+
+        <h2><mark><u><b>Justify-content:</b></u></mark> property in CSS is used to align and distribute space between content items along the main axis of a flex container, grid container, or multicol container. It does not apply to block containers.</h2>
+
+        <div class="border">
+            <h3><u><b>Flex-start(default):</b></u> Aligns items to the beginning of the main axis.</h3>
+            <div class="containerd">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+            <h3><u><b>Center:</b></u> Centers items along the main axis.</h3>
+            <div class="containere">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+            <h3><u><b>Flex-end:</b></u> Aligns items to the end of the main axis.</h3>
+            <div class="containerf">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+            <h3><u><b>Space-between:</b></u> Distributes space evenly between items, pushing the first item to the start and the last item to the end of the main axis.</h3>
+            <div class="containerg">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+            <h3><u><b>Space-around:</b></u> Distributes space evenly around items, resulting in equal space before the first item, between items, and after the last item. The space between adjacent items will be double the space at the edges.</h3>
+            <div class="containerh">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+            <h3><u><b>Space-evenly:</b></u> Distributes space so that the spacing between any two adjacent items, and the spacing from the edges of the container to the first/last item, is equal.</h3>
+            <div class="containeri">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+            </div>
+        </div>
+
+        <h2><mark><u><b>Align-items:</b></u></mark> This property aligns flex items along the cross-axis (perpendicular to the main axis).</h2>
+
+        <h3><u><b>Flex-start:</b></u> Aligns items to the beginning of the cross-axis.</h3>
+        <div class="containerj">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+        <h3><u><b>Center:</b></u> Centers items along the cross-axis.</h3>
+        <div class="containerk">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+        <h3><u><b>Flex-end:</b></u> Aligns items to the end of the cross-axis.</h3>
+        <div class="containerl">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+        <h3><u><b>Baseline:</b></u> Align the text.</h3>
+        <div class="containerm">
+            <div class="box" id="box6">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+         <h2><mark><u><b>Flex-wrap:</b></u></mark> roperty in CSS controls how flex items behave when there isn't enough space in a flex container to accommodate them on a single line. It is applied to the flex container, not the individual flex items.</h2>
+
+        <h3><u><b>Nowrap (default):</b></u> All flex items are forced onto a single line, even if this causes them to overflow the container.</h3>
+        <div class="containern">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>Wrap:</b></u> Flex items are allowed to wrap onto multiple lines if there isn't enough space on a single line. New lines are stacked in the normal direction.</h3>
+        <div class="containero">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>Wrap-reverse:</b></u> Similar to wrap, but the new lines are stacked in the reverse direction.</h3>
+        <div class="containerp">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h2><mark><u><b>Align-content:</b></u></mark> Aligns multiple lines of flex items along the cross axis when there is extra space. This only applies when flex-wrap is set to wrap.</h2>
+
+        <h3><u><b>Stretch (default):</b></u> Lines stretch to fill the available space in the cross-axis.</h3>
+        <div class="containerq">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>flex-start:</b></u> Lines are packed towards the start of the flex container's cross-axis.</h3>
+        <div class="containerr">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>flex-end:</b></u> Lines are packed towards the end of the flex container's cross-axis.</h3>
+        <div class="containers">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>center:</b></u> Lines are packed towards the center of the flex container's cross-axis.</h3>
+        <div class="containert">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>space-between:</b></u> Lines are distributed evenly across the container with equal space between them, and no space at the ends.</h3>
+        <div class="containeru">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>space-around:</b></u>  Lines are distributed evenly across the container with equal space around them, resulting in half-size space at either end.</h3>
+        <div class="containerv">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>space-evenly:</b></u>  Lines are distributed evenly across the container with equal space between all lines and at both ends.</h3>
+        <div class="containerw">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>column-gap and row-gap:</b></u>  put gap in between you item either column or row.</h3>
+        <div class="containerx">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div class="box" id="box5">5</div>
+        </div>
+
+        <h3><u><b>align-self</b></u> A property that can be applied to single elements.</h3>
+        <div class="containery">
+            <div class="box" id="box7">start</div>
+            <div class="box" id="box8">center</div>
+            <div class="box" id="box9">end</div>
+        </div>
+
+    </body>
+</html>

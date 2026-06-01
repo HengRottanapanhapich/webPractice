@@ -1,0 +1,17 @@
+h1 {
+    text-shadow: 3px 3px 1px orange; /*horizal offset ( positive right and negative left ) and vertical offset ( positive down negative up ) ( you need both of them for it to work )*/
+}
+/*The third one is the blur radius, a larger value results in a more diffused and blurred shadow*/
+
+h2 {
+    text-shadow: -3px -3px 5px purple, 3px 3px 5px orange; /* you can add multiple shadows by separating them with commas */
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    background-color:antiquewhite;
+    box-shadow: 5px 5px 5px rgb(180, 143, 74);
+}
+
+

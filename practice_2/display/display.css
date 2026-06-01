@@ -1,0 +1,29 @@
+#box1 {
+    background-color: rgb(244, 132, 132);
+    width: 100px;
+    height: 100px;
+}
+#box2 {
+    background-color: rgb(244, 214, 132);
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+#box3 {
+    background-color: rgb(244, 242, 132);
+}
+#box4 {
+    background-color: rgb(138, 244, 132);
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+#box5 {
+    background-color: rgb(132, 216, 244);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+/* the inline-block means that it works as a block but it is also inline with the paragraph allow setting width, height, padding. margin*/
+/* you can use display: none which remove the box */
+/* if you use visibility: hidden; this will hide the box quite like display but for this one it will still leave the space*/

@@ -1,0 +1,36 @@
+h1::first-letter{
+    font-size: 1em;
+    font-style: italic;
+    color: pink;
+}
+
+p::first-line{
+    background-color: pink;
+}
+/* To apply the same pseudo element styling to multiple selectors in css, you need to use a comma-separated selector list. */
+p::selection, ul::selection, h1::selection{
+    color: white;
+    background-color: pink;
+} 
+
+#three li::before{
+    content: "❤️";
+}
+
+#hachiware::after{
+    content: "😺";
+}
+
+#chiikawa::after{
+    content: "🐭";
+}
+
+#usagi::after{
+    content: "🐰";
+}
+
+#three li::marker{
+    content: "✓";
+    color: rgb(0, 197, 89);
+    font-size: 1.5em; /*also increase the size of the list*/
+}
